@@ -45,5 +45,8 @@ streamlit run app/app.py
 
 ## 📸 App Preview
 
-![App Screenshot](assets/app1.png)
-![App Screenshot](assets/app2.png)
+### 🔹 Input Interface
+![Input](assets/app1.png)
+
+### 🔹 Risk Assessment Output
+![Output](assets/app2.png)
