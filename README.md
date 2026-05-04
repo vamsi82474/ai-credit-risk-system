@@ -1,40 +1,64 @@
 # 💳 AI Credit Risk & Collections Decision System
 
 ## 📌 Overview
-This project builds an end-to-end machine learning system to predict customer delinquency and support collections strategy using AI.
+End-to-end machine learning project to predict customer delinquency risk and support collections strategy.  
+Includes model training, prediction pipeline, Streamlit deployment, explainability, and business recommendations.
+
+---
 
 ## 🚀 Features
-- Predicts delinquency risk using ML
-- Real-time risk scoring via Streamlit app
-- Business recommendations for collections team
-- Explainable decision logic
-- Responsible AI considerations
+- Predicts delinquency risk using machine learning
+- Real-time scoring via Streamlit app
+- Clear justification (“why this prediction?”)
+- Business recommendations for collections teams
+- Handles class imbalance and improves risk detection
+
+---
 
 ## 🧠 Model
-- Algorithm: Random Forest (balanced)
-- Handles class imbalance
-- Uses financial behavior features:
+- Algorithm: Random Forest (class_weight="balanced")
+- Key features:
   - Credit Utilization
   - Missed Payments
   - Income
   - Age
+- Includes threshold tuning + rule-based override for high-risk cases
+
+---
 
 ## 📊 Workflow
 1. Data Cleaning & Preprocessing  
-2. Feature Engineering  
+2. Feature Encoding  
 3. Model Training  
 4. Prediction System  
 5. Streamlit Deployment  
 
+---
+
+## ⚠️ Key Insight
+The initial model showed high accuracy but failed to detect delinquent customers due to class imbalance.  
+This was fixed using:
+- Balanced training  
+- Threshold tuning (0.35 instead of 0.5)  
+- Rule-based override for extreme high-risk scenarios  
+
+---
+
 ## 💼 Business Impact
 - Identifies high-risk customers early  
-- Improves collections efficiency  
-- Supports proactive intervention strategies  
+- Enables proactive collections strategy  
+- Improves recovery efficiency  
+- Supports data-driven decisions  
+
+---
 
 ## ⚖️ Responsible AI
 - Bias-aware modeling  
 - Explainable predictions  
 - Human-in-the-loop decision support  
+- Uses financial behavior only (no sensitive attributes)  
+
+---
 
 ## 🖥️ Run Locally
 
@@ -42,11 +66,3 @@ This project builds an end-to-end machine learning system to predict customer de
 pip install -r requirements.txt
 python src/train.py
 streamlit run app/app.py
-
-## 📸 App Preview
-
-### 🔹 Input Interface
-![Input](assets/app1.png)
-
-### 🔹 Risk Assessment Output
-![Output](assets/app2.png)
