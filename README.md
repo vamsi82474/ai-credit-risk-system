@@ -66,5 +66,3 @@ This was fixed using:
 pip install -r requirements.txt
 python src/train.py
 streamlit run app/app.py
-
-nshot 2026-05-04 172935" src="https://github.com/user-attachments/assets/ee3b943d-cd4f-4cc2-af6d-152e1dfead82" />
