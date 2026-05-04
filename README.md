@@ -66,3 +66,13 @@ This was fixed using:
 pip install -r requirements.txt
 python src/train.py
 streamlit run app/app.py
+
+---
+
+## 📸 App Preview
+
+### 🔹 Input Interface
+![Input](assets/app1.png)
+
+### 🔹 Risk Assessment Output
+![Output](assets/app2.png)
