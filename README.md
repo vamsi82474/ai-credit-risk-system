@@ -42,3 +42,8 @@ This project builds an end-to-end machine learning system to predict customer de
 pip install -r requirements.txt
 python src/train.py
 streamlit run app/app.py
+
+## 📸 App Preview
+
+![App Screenshot](assets/app1.png)
+![App Screenshot](assets/app2.png)
