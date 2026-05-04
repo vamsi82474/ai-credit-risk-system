@@ -69,10 +69,7 @@ streamlit run app/app.py
 
 ---
 
-## 📸 App Preview
-
-### 🔹 Input Interface
-![Input](assets/app1.png)
-
-### 🔹 Risk Assessment Output
-![Output](assets/app2.png)
+<img width="860" height="405" alt="Screenshot 2026-05-04 173131" src="https://github.com/user-attachments/assets/21bcea06-6364-4c29-9b11-3bfa207d0270" />
+<img width="1366" height="768" alt="Screenshot 2026-05-04 172935" src="https://github.com/user-attachments/assets/1788e3e5-e31d-46da-b8c7-1190f0f1479d" />
+<img width="860" height="405" alt="Screenshot 2026-05-04 173131" src="https://github.com/user-attachments/assets/ca169013-a803-47c1-b709-854b804f29c6" />
+<img width="1366" height="768" alt="Screenshot 2026-05-04 172935" src="https://github.com/user-attachments/assets/ee3b943d-cd4f-4cc2-af6d-152e1dfead82" />
